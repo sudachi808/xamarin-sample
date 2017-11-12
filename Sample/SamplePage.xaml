@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Sample" x:Class="Sample.SamplePage">
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Sample"
+    x:Class="Sample.SamplePage">
 
+    <local:CircleView WidthRequest="300" HeightRequest="300" VerticalOptions="Center" HorizontalOptions="Center">
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Label x:Name="DateLabel" Text="---" HorizontalTextAlignment="Center" />
         <Label x:Name="TelopLabel" Text="---" HorizontalTextAlignment="Center" />
@@ -12,5 +17,6 @@
             <Label Text="℃" />
         </StackLayout>
     </StackLayout>
+    </local:CircleView>
 
 </ContentPage>
