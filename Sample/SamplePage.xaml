@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Sample" x:Class="Sample.SamplePage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label x:Name="DateLabel" Text="---" HorizontalTextAlignment="Center" />
+        <Label x:Name="TelopLabel" Text="---" HorizontalTextAlignment="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label x:Name="MinTemp" />
+            <Label Text="℃" />
+            <Label Text="/" />
+            <Label x:Name="MaxTemp" />
+            <Label Text="℃" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
